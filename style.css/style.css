@@ -51,14 +51,13 @@ font-size: 5em;
   width: 900px;
   position: relative;
   background-color:#e7c9d1;
-  margin: 13em auto ;
+  margin: 14em auto 5em  ;
   padding: 14em 0 5em 0;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
   align-content: flex-start;
   border-radius: 14px;
-  
 }
 
 .work_cast{
@@ -135,17 +134,20 @@ font-size: 5em;
 @media (max-width:55em)
 {
 
-  .contener{
-    width: 400px;
-    background-color:#e7c9d1;
-    margin: 13em auto ;
-    padding: 12.5em 0 1.8em 0;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    align-content: flex-start;
-    border-radius: 14px;
-    }
+.contener{
+  width: 400px;
+  max-width: 350px;
+  margin: 14em auto 5em  ;
+  padding: 14em 0 2em 0;
+  background-color:#e7c9d1;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  border-radius: 14px;
+  }
+
+ 
 
 .contener h3{
   position: absolute;
@@ -192,21 +194,21 @@ font-size: 5em;
   }
 
   .work_cast img{
-    width: 180px;
+    width: 130px;
     height: auto;
-    margin: 10px 10px;
+    margin: 6px 3px;
     border-radius: 14px;
   } 
   
   .work_cast::after {
     content: '';
     position: absolute;
-    top: 17%;
-    left: 5%;
+    top: 26%;
+    left: 2%;
     opacity:69%;
     border-radius: 14px;
-    width: 180px;
-    height: 200px;
+    width: 130px;
+    height: 130px;
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(133, 133, 133, 0.48) 30%, rgba(0, 0, 0, 0.8) 100%);
   }
 
@@ -218,15 +220,15 @@ font-size: 5em;
 
 /* ===============Eventカード================= */
 
-.event_contener{
-  width: 900px;
+.event_contener{ 
+  width: 500px;
   margin: 0 auto ;
   padding: 10em 0 1.8em 0;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
   align-content: flex-start;
-  border-radius: 14px;
+
 }
 
 a.btn7 {
@@ -444,46 +446,33 @@ li.card7.show div.flap2 {
 /* =========================Events swiper============================= */
 
 .swiper {
-  width: 88%;
-  height: 900px;
-  margin: 10em 0 10em 0 ;
+  width: 70%;
+  max-width: 700px;
+  height: 600px;
   padding: 0 0 1.8em 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-content: flex-start;
   
 }
-
 
 
 @media screen and (max-width: 55em) {
 
   .swiper {
-    width: 88%;
-    height: 400px;
-    margin: 10em 0 0 0 ;
+    width: 70%;
+    width: 360px;
+    height: 480px;
     padding: 0 0 1.8em 0;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-content: flex-start;
-    border-radius: 14px;
+    
   }
 
 }
-@media screen and (max-width: 65em) {
-
-  .swiper {
-    width: 88%;
-    height: 800px;
-    margin: 10em 0 0 0 ;
-    padding: 0 0 1.8em 0;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    align-content: flex-start;
-    border-radius: 14px;
-  }
-
-}
-
 
 
 /* =====================スライダー====================== */
@@ -553,9 +542,6 @@ li.card7.show div.flap2 {
 
 
 
-
-
-
 /* ===============在籍一覧ボタン================= */
 
 /* 003 */
@@ -569,7 +555,7 @@ li.card7.show div.flap2 {
     justify-content: space-around;
     align-items: inherit;
     margin: 0 auto;
-    max-width: 110px;
+    max-width: 130px;
     padding: 10px 20px;
     color: #313131;
     transition: 0.3s ease-in-out;
