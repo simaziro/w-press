@@ -2,6 +2,11 @@
 
 /* ===============基礎デザイン================= */
 
+.twitter-timeline{
+  margin: 0 auto;
+  padding: 0 10em;
+}
+
 body{
     background: #fff ;
     margin: 0px;
