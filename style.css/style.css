@@ -135,17 +135,19 @@ font-size: 5em;
 @media (max-width:55em)
 {
 
-  .contener{
-    width: 400px;
-    background-color:#e7c9d1;
-    margin: 13em auto ;
-    padding: 12.5em 0 1.8em 0;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    align-content: flex-start;
-    border-radius: 14px;
-    }
+.contener{
+  width: 280px;
+  background-color:#e7c9d1;
+  margin: 13em auto ;
+  padding: 12.5em 0 1.8em 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  border-radius: 14px;
+  }
+
+ 
 
 .contener h3{
   position: absolute;
@@ -192,21 +194,21 @@ font-size: 5em;
   }
 
   .work_cast img{
-    width: 180px;
+    width: 130px;
     height: auto;
-    margin: 10px 10px;
+    margin: 6px 3px;
     border-radius: 14px;
   } 
   
   .work_cast::after {
     content: '';
     position: absolute;
-    top: 17%;
-    left: 5%;
+    top: 26%;
+    left: 2%;
     opacity:69%;
     border-radius: 14px;
-    width: 180px;
-    height: 200px;
+    width: 130px;
+    height: 130px;
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(133, 133, 133, 0.48) 30%, rgba(0, 0, 0, 0.8) 100%);
   }
 
@@ -456,8 +458,8 @@ li.card7.show div.flap2 {
 @media screen and (max-width: 55em) {
 
   .swiper {
-    width: 88%;
-    height: 400px;
+    width: 30px;
+    height: 240px;
     margin: 10em 0 0 0 ;
     padding: 0 0 1.8em 0;
     display: flex;
@@ -472,7 +474,7 @@ li.card7.show div.flap2 {
 
   .swiper {
     width: 88%;
-    height: 800px;
+    height: 500px;
     margin: 10em 0 0 0 ;
     padding: 0 0 1.8em 0;
     display: flex;
