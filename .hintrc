@@ -1,0 +1,47 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "no-protocol-relative-urls": "off",
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "text-size-adjust",
+          "-webkit-tap-highlight-color"
+        ]
+      }
+    ],
+    "axe/name-role-value": [
+      "default",
+      {
+        "link-name": "off",
+        "button-name": "off"
+      }
+    ],
+    "no-inline-styles": "off",
+    "compat-api/html": [
+      "default",
+      {
+        "ignore": [
+          "iframe[loading]"
+        ]
+      }
+    ],
+    "axe/text-alternatives": [
+      "off",
+      {
+        "frame-title": "off"
+      }
+    ],
+    "axe/structure": [
+      "default",
+      {
+        "listitem": "off",
+        "list": "off"
+      }
+    ],
+    "button-type": "off"
+  }
+}
