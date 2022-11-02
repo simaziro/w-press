@@ -135,8 +135,8 @@ font-size: 5em;
 {
 
 .contener{
-  width: 400px;
-  max-width: 350px;
+  width:350px;
+  max-width: 380px;
   margin: 14em auto 5em  ;
   padding: 14em 0 2em 0;
   background-color:#e7c9d1;
